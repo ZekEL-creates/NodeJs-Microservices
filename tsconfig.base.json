@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Environment and Target */
+    "target": "ES2022" /* Compiles to modern JS supported natively by Node.js 18+ */,
+    "module": "NodeNext" /* Matches Node.js module resolution system */,
+    "moduleResolution": "NodeNext" /* Required when module is set to NodeNext */,
+
+    /* Directories */
+    "rootDir": "src" /* Source folder containing your .ts files */,
+    "outDir": "dist" /* Output folder for the compiled .js files */,
+
+    /* Type Checking Rules */
+    "strict": true /* Enables all strict type-checking options */,
+    "noImplicitAny": true /* Raises error on expressions and declarations with an implied 'any' type */,
+
+    /* Compatibility & Performance */
+    "esModuleInterop": true /* Allows importing CommonJS modules using ES import syntax */,
+    "forceConsistentCasingInFileNames": true /* Ensures case-sensitive file naming consistency */,
+    "skipLibCheck": true /* Skips type checking of declaration files (.d.ts) to speed up compilation */
+  }
+}
